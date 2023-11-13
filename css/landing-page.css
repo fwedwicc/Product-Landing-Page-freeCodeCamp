@@ -1,0 +1,233 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-image: url(/Image/main-bg.jpg);
+    background-repeat: no-repeat;
+}
+#logo-company {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rubik', sans-serif;
+}
+#logo-company h3 {
+    color: #491D8D;
+}
+#title{
+    font-size: 35px;
+    color: #9572CC;
+    text-align: center;
+    width: 40rem;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    padding: 0 2rem 0 2rem;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    font-size: 13.2px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+#logo-company h3 {
+    margin-left: 1rem;
+}
+#header-img {
+    width: 10%;
+    height: 10%;
+    margin-top: 0.6rem;
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: rgba(207, 177, 255, 0.20);
+    backdrop-filter: blur(25px);
+    padding: 0.7rem 5rem 0.7rem 5rem;
+}
+@media (min-width: 767px) {
+    p {
+    font-size: 12px;
+    }
+}
+#landing-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#form, #title {
+    display: flex;
+    justify-content: center;
+}
+#video {
+    border-radius: 1rem;
+    margin: 7rem 0 0 0;
+}
+.feature-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem;
+}
+.fa-fire-flame-curved,
+.fa-truck,
+.fa-battery-full {
+    font-size: 4rem;
+}
+.feature-content-1 {
+    margin-left: 3.3rem;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.feature-content-1 h1,
+.feature-content-2 h1,
+.feature-content-3 h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+.feature-content-1 p,
+.feature-content-2 p,
+.feature-content-3 p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 13.5px;
+}
+.feature-content-2 {
+    margin-left: 3rem;
+}
+.feature-content-3 {
+    margin-left: 3.5rem;
+}
+#features {
+    color: #ECE1FF;
+}
+#email {
+    background-color: #DBC4FF;
+    border: solid 1px #8545ED;
+    border-radius: 6px;
+    color: #3F00A5;
+    padding-left: 1rem;
+}
+::placeholder {
+    padding-left: -3rem;
+    color: #AC76FF;
+}
+#submit {
+    display: block;
+    padding: 0.8rem 1.5rem 0.7rem 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: #8545ED;
+    color: #FCFBFF;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+#email {
+    width: 100%;
+    height: 1.9rem;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+}
+#how-it-works {
+    justify-content: center;
+    display: flex;
+}
+.price-container {
+    background: rgba(204, 173, 255, 0.40);
+    backdrop-filter: blur(25px);
+    width: 17rem;
+    height: 18rem;
+    border-radius: 1rem;
+}
+.price-container button {
+    height: 2.3rem;
+    width: 6rem;
+    cursor: pointer;
+    background-color: #8545ED;
+    color: #FCFBFF;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-top: 0.7rem;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4rem 0 4rem 0;
+}
+.price-container {
+    margin: 0 1rem 0 1rem;
+    padding: 0rem 2rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.price-container h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #734DAD;
+}
+.price-container h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #734DAD;
+}
+.price-container p {
+    margin-top: -4px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    color: #734DAD;
+    font-size: 13px;
+}
+footer {
+    background: rgba(207, 177, 255, 0.20);
+    backdrop-filter: blur(25px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.7rem 7rem 0.7rem 7rem;
+    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #734DAD;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #734DAD;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
